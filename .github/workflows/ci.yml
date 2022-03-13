@@ -7,7 +7,7 @@ jobs:
         runs-on: macos-10.15
         steps:
             - name: Install Norminette.
-              run:
+              run: |
                   python3 -m pip install --upgrade pip setuptools
                   python3 -m pip install norminette
 
